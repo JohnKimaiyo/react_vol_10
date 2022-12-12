@@ -10,6 +10,7 @@ import Mycount from "./components/Mycount";
 import Users from "./components/Users";
 import Event from "./Event";
 import Range from "./components/Range";
+import Submit from "./components/Submit";
 function App() {
   return (
     <div className="App">
@@ -19,13 +20,14 @@ function App() {
       <Title name="Frontend developer" />
       <Title name="Mobile developer" />
       <Title name="Solidity developer" />
-      <Myname/>
-      <Form/>
-      <Mycount/>
-      <Users/>
-      <Event/>
-      <Event/>
-      <Range/>
+      <Myname />
+      <Form />
+      <Mycount />
+      <Users />
+      <Event />
+      <Event />
+      <Range />
+      <Submit />
     </div>
   );
 }
