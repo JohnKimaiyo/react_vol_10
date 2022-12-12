@@ -9,6 +9,7 @@ import Form from "./components/Form";
 import Mycount from "./components/Mycount";
 import Users from "./components/Users";
 import Event from "./Event";
+import Range from "./components/Range";
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,8 @@ function App() {
       <Mycount/>
       <Users/>
       <Event/>
+      <Event/>
+      <Range/>
     </div>
   );
 }
